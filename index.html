@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kocky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+       <div class="score">
+            <h1 id="pl1score">
+                0
+            </h1>
+            <h1>
+                :
+            </h1>
+            <h1 id="pl2score">
+                0
+            </h1>
+       </div>
+       <div class="info">
+            <h1 id="infos">Hráč 1 na řadě</h1>
+       </div>
+    </div>
+
+    <div class="main">
+        <div class="pl1Side" id="pl1Dices">
+
+        </div>
+
+        <div class="mid">
+            <button type="button" onclick="roll()" id="btnRoll"></button>
+            <button type="button" onclick="reset()" id="btnReset"></button>
+        </div>
+
+        <div class="pl2Side" id="pl2Dices">
+
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

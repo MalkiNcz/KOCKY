@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+ 
+ body {
+    background-color: black;
+    color: white;
+    font-family: "Anta", sans-serif;
+    
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    border: 0;
+    border-bottom:1vh;
+    border-bottom-style: solid;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.header h1 {
+    font-size: 7vh;
+}
+
+.score {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    padding-inline: 8vh;
+}
+
+.info {
+    position: absolute;
+    text-align: right;
+    padding-inline: 8vh;
+}
+
+.main {
+    position: absolute;
+    height: calc(85% - 1vh);
+    width: 100%;
+    top: calc(15% + 1vh);
+    left: 0;
+    background-image: url('pic/Wood-Background-Wooden-Planks.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pl1Side {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 33%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.mid {
+    position: absolute;
+    left: 0;
+    top: 33%;
+    height: 33%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mid button {
+    height: 100%;
+    width: 20%;
+    border-radius: 70px;
+    font-size: 6vh;
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    cursor: pointer;
+}
+
+.mid #btnRoll {
+    background-image: url('pic/rollPic.svg');
+}
+
+.mid #btnSkip {
+    background-image: url('pic/skip.svg');
+}
+
+.mid #btnReset {
+    background-image: url('pic/reset.svg');
+}
+
+.pl2Side {
+    position: absolute;
+    left: 0;
+    top: 66%;
+    height: 33%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pl1Side img:hover {
+    border-style: solid;
+    border-color: red;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.pl2Side img:hover {
+    border-style: solid;
+    border-color: red;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
